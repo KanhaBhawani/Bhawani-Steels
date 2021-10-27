@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+.upperContainer{
+    height: 30rem;
+    background-color: rgb(241, 119, 119);
+    text-align: center;
+    padding: 1px;
+}
+.navBar{
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: right;
+}
+.navBar li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 35px;
+}
+.navBar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+.navBar a:hover{
+    color: red;
+}
+
+.intro{
+    margin-top: 8%;
+}
+.intro h1{
+    font-family: cursive;
+    font-size: 3.5rem;
+    color: #273d3d;
+}
+.intro h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* middle container */
+
+#aboutUs{
+    height: 500px;
+    background-color: #fff;
+}
+#pricing{
+    height: 500px;
+    background-color: rgb(212, 76, 76);
+}
+.wrapper{
+    max-height: 120px;
+    border: 2px solid black;
+    display: flex;
+    overflow-x: auto;
+}
+/* .wrapper::-webkit-scrollbar{
+    width: 0; 
+    display: none;
+} */
+.wrapper .item{
+    min-width: 110px;
+    max-height: 110px;
+    border: 1px solid black ;
+    line-height: 110px;
+    text-align: center;
+    background-color: #fff;
+}
+#contactUs{
+    margin: 150px auto;
+    background-color: #fff;
+    text-align: center;
+    line-height: 2;
+    /* padding-bottom: 50px; */
+}
+.branch{
+    width: 30%;
+    /* text-align: left; */
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(197, 90, 90, 0.61);
+    line-height: 1.3;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+/* lower container */
+.lowerContainer{
+    height: 100px;
+    background-color: green;
+}
